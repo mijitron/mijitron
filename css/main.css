@@ -1,0 +1,99 @@
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+p.logo {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 2.5em;
+}
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+h4, h5, h6, a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+header nav {
+  color: white;
+}
+
+.navbar-toggler {
+  margin-top: 1.75em;
+  background: rgba(255,255,255,1);
+}
+
+#navbarNavAltMarkup a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+#navbarNavAltMarkup a:hover {
+  font-weight: 700;
+  color: white;
+}
+
+.jumbotron {
+  background: white;
+}
+
+.jumbotron p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.75em;
+}
+
+.jumbotron img {
+  width: 100%;
+  max-width: 600px;
+  padding-bottom: 1em;
+}
+
+section h2 {
+  color: white;
+  font-size: 2em;
+}
+
+.top-row {
+  min-height: 450px;
+  padding: 1.5em 0;
+  background-color: #00adef;
+}
+
+.middle-row {
+  min-height: 450px;
+  padding-top: 2em;
+  background-color: white;
+  border: none;
+}
+
+.middle-row h2 {
+  color: black;
+}
+
+.card {
+  border: none;
+}
+
+.bottom-row {
+  min-height: 450px;
+  padding: 1.5em 0;
+  background-color: #ffda53;
+}
+
+
+.card-img-top {
+  width: 50%;
+  margin: .5em auto;
+}
+
+.infographic-fact {
+  font-weight: bold;
+  font-size: 1.5em;
+}
