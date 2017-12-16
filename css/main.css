@@ -79,7 +79,7 @@ section h2 {
 
 .card {
   border: none;
-  border-radius: 0 !important; 
+  margin-bottom: 10px; 
 }
 
 .bottom-row {
