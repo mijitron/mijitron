@@ -1,100 +1,149 @@
-body {
-  background-color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!--Bootstrap CSS---->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  
+  <!--Custom Styles-->
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  
+  <!-- My font awesome link-->
+  <script src="https://use.fontawesome.com/9578c16965.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-light bg-faded" style="background-color: white;">
+  <a class="nav-item nav-link" href="index.html"><p class="logo text-center align-top" style="margin-bottom: 0; color: black;">mijitron</p></a>
+</nav> 
+<header>
+  <nav class="navbar navbar-toggleable-md navbar-light" style="background-image: url(https://s3-us-west-2.amazonaws.com/mijitron/portfolio-website/assets/images/nav-banner.png);
+  background-position: center;
+  background-size: cover;">
+    
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="index.html">
+      <img src="https://s3-us-west-2.amazonaws.com/mijitron/portfolio-website/assets/images/logo.png" width="100" height="100" class="d-inline-block align-top text-center" alt="mijitron logo">
+  </a>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup"><a class="nav-item nav-link h5 active" href="index.html">About <span class="sr-only">(current)</span></a>
+<!--
+      <a class="nav-item nav-link h5" href="#">Projects</a>
+      <a class="nav-item nav-link h5" href="contact.html">Contact</a>
+-->
 
-p.logo {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  font-size: 2.5em;
-}
-h1, h2, h3 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-}
+    </div>
+  </div>
+</nav>
+</header>
+<div class="jumbotron jumbotron-fluid text-center" style="margin-bottom: 0;">
+  <div class="container">
+    <img src="https://s3-us-west-2.amazonaws.com/mijitron/portfolio-website/assets/images/home-sweet-home.gif"  alt="animated gif of seattle">
+    <h4 class="card-title">Welcome to my website!</h4>
+    <p class="card-text">First and foremost, everyone is probably wondering why my website is named "mijitron.com" and not "michellehwang.com". To tell you the plain and simple truth, there are just too many Michelle's on this planet. In fact, there are <span class="infographic-fact">43,496</span> according to a sample based on social security card applications gathered from the SSA's (Social Security Administration) in 2016 <a href="https://www.ssa.gov/oact/babynames/decades/names2000s.html">(source: www.ssa.gov)</a>.</p>
+  </div>
+</div> 
+  
+<section class="top-row">
+  <h2 class="container text-center">About Me:</h2>
+  <br>
+  <div class="card-deck container">
+    <div class="card">
+      <img class="card-img-top" src="https://s3-us-west-2.amazonaws.com/mijitron/portfolio-website/assets/images/robo-cat.png" alt="Card image cap">
+      <div class="card-block text-center">
+        <h4 class="card-title">I am a Seattleite</h4>
+        <p class="card-text">I have been living in Seattle, Washington for over 20 years now. Most of the time it's cold and wet but that just makes me appreciate anything over 60°.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://s3-us-west-2.amazonaws.com/mijitron/portfolio-website/assets/images/robo-cat2.png" alt="Card image cap">
+      <div class="card-block text-center">
+        <h4 class="card-title">I <i class="fa fa-heart" aria-hidden="true"></i> Animals</h4>
+        <p class="card-text">Give me a grouchy cat or goofy pupp at any party and I'm a happy camper. If you haven't noticed already I really like cats even though I'm allergic to them.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://s3-us-west-2.amazonaws.com/mijitron/portfolio-website/assets/images/robo-cat3.png" alt="Card image cap">
+      <div class="card-block text-center">
+        <h4 class="card-title">I am a Web Designer</h4>
+        <p class="card-text">I build websites that enhance user experiences. What I enjoy most about front-end development are the never-ending learning paths that comes with it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="middle-row">
+  <h2 class="container text-center">Education:</h2>
+  <br>
+  <div class="card-deck container">
+    <div class="card">
+      <div class="card-block text-center">
+        <h4 class="card-title"><i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i><br><br>
+          B.B.A. Marketing</h4>
+        <p class="card-text display-5">University of Washington <br>
+          <small class="text-muted">2010 - 2015</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-block text-center">
+        <h4 class="card-title"><i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i><br><br>
+          Certificate in HTML5, CSS3 &amp; Responsive Design</h4>
+        <p class="card-text display-5">UW Professional &amp; Continuing Education <br>
+          <small class="text-muted">2016 - 2017</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-block text-center">
+        <h4 class="card-title"><i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i><br><br>
+          Independent Studies</h4>
+        <p class="card-text display-5">Code School &amp; Lynda.com<br>
+          <small class="text-muted">2016 - Present</small></p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bottom-row">
+  <h2 class="container text-center">Hobbies:</h2>
+  <br>
+  <div class="card-deck container">
+    <div class="card">
+      <img class="card-img-top" src="https://s3-us-west-2.amazonaws.com/mijitron/portfolio-website/assets/images/robo-cat.png" alt="Card image cap">
+      <div class="card-block text-center">
+        <h4 class="card-title">Drawing</h4>
+        <p class="card-text">Ever since elementary school I've always loved to draw. I'm entirely self-taught; I would say practice definitely made me better over time.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://s3-us-west-2.amazonaws.com/mijitron/portfolio-website/assets/images/robo-cat2.png" alt="Card image cap">
+      <div class="card-block text-center">
+        <h4 class="card-title">Reading</h4>
+        <p class="card-text">My favorite genres are fairy tales, fantasy, and historical fiction. My all time favorite series being The Song of the Lioness by Tamora Pierce.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://s3-us-west-2.amazonaws.com/mijitron/portfolio-website/assets/images/robo-cat3.png" alt="Card image cap">
+      <div class="card-block text-center">
+        <h4 class="card-title">Hiking</h4>
+        <p class="card-text">The best thing about living in Washington is that there are so many different trails suited for beginners and/or experts. It's a great chance to escape the fast-paced metropolitan city of Seattle.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-h4, h5, h6, a {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-}
+<footer>
+  <nav class="navbar navbar-light bg-faded" style="background-color: rgba(0,0,0,1)">
+    <h1 class="navbar-brand mb-0 text-center" style="color: white;">&copy; 2017 mijiton</h1>
+  </nav>
+</footer>
+  
+<!--Add JavaScript plugins, jQuery, and Tether near the end of your pages, right before the closing </body> tag. Be sure to place jQuery and Tether first, as our code depends on them. While we use jQuery’s slim build in our docs, the full version is also supported.-->
+<!--<script src="jquery-3.2.1.min.js"></script>-->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
 
-header nav {
-  color: white;
-}
-
-.navbar-toggler {
-  margin-top: 1.75em;
-  background: rgba(255,255,255,1);
-}
-
-#navbarNavAltMarkup a {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.25em;
-  font-weight: 400;
-}
-
-#navbarNavAltMarkup a:hover {
-  font-weight: 700;
-  color: white;
-}
-
-.jumbotron {
-  background: white;
-}
-
-.jumbotron p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  line-height: 1.75em;
-}
-
-.jumbotron img {
-  width: 100%;
-  max-width: 600px;
-  padding-bottom: 1em;
-}
-
-section h2 {
-  color: white;
-  font-size: 2em;
-}
-
-.top-row {
-  min-height: 450px;
-  padding: 1.5em 0;
-  background-color: #00adef;
-}
-
-.middle-row {
-  min-height: 450px;
-  padding-top: 2em;
-  background-color: white;
-  border: none;
-}
-
-.middle-row h2 {
-  color: black;
-}
-
-.card {
-  border: none;
-  margin-bottom: 10px; 
-}
-
-.bottom-row {
-  min-height: 450px;
-  padding: 1.5em 0;
-  background-color: #ffda53;
-}
-
-
-.card-img-top {
-  width: 50%;
-  margin: .5em auto;
-}
-
-.infographic-fact {
-  font-weight: bold;
-  font-size: 1.5em;
-}
+</html>
